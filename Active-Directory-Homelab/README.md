@@ -33,8 +33,13 @@ Built a virtualized Active Directory environment using Oracle VirtualBox. Config
 ## Screenshots
 
 ![VM Setup](screenshots/vm_setup.png)
+
 ![AD Users](screenshots/ad_users.png)
+
 ![OUs](screenshots/ous.png)
+
 ![Groups](screenshots/groups.png)
+
 ![Domain Join](screenshots/domain_join.png)
+
 ![Success](screenshots/domain_success.png)
