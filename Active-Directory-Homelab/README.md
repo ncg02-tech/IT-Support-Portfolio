@@ -85,20 +85,20 @@ Built and configured a virtualized enterprise-style Active Directory environment
 ![Windows Server 2025 ISO](screenshots/02_windows_server_2025_iso.png)
 ![Oracle VirtualBox Download](screenshots/03_oracle_virtualbox_download.png)
 
-### 2. Creating the Windows Server Virtual Machine
+### 2. Creating the Windows 11 Virtual Machine
+![New Windows 11 VM](screenshots/08_new_windows_11_vm.png)
+![New Windows 11 VM 1](screenshots/09_new_windows_11_vm_1.png)
+![New Windows 11 VM 2](screenshots/10_new_windows_11_vm_2.png)
+![New Windows 11 VM 3](screenshots/11_new_windows_11_vm_3.png)
+![Windows 11 Home Page](screenshots/12_windows_11_home_page.png)
+
+### 3. Creating the Windows Server Virtual Machine
 ![New Windows Server VM 1](screenshots/04_new_windows_server_vm_1.png)
 ![New Windows Server VM 2](screenshots/05_new_windows_server_vm_2.png)
 ![New Windows Server VM 3](screenshots/06_new_windows_server_vm_3.png)
 ![New Windows Server VM 3](screenshots/06.1_new_windows_server_vm_3.png)
 ![Windows Server Setup](screenshots/07_windows_server_setup.png)
 ![Server Manager](screenshots/13_server_manager.png)
-
-### 3. Creating the Windows 11 Virtual Machine
-![New Windows 11 VM](screenshots/08_new_windows_11_vm.png)
-![New Windows 11 VM 1](screenshots/09_new_windows_11_vm_1.png)
-![New Windows 11 VM 2](screenshots/10_new_windows_11_vm_2.png)
-![New Windows 11 VM 3](screenshots/11_new_windows_11_vm_3.png)
-![Windows 11 Home Page](screenshots/12_windows_11_home_page.png)
 
 ### 4. Initial Server Setup
 ![Server to Settings](screenshots/14.1_server_manager_to_settings.png)
