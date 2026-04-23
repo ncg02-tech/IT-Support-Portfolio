@@ -130,7 +130,7 @@ Built and configured a virtualized enterprise-style Active Directory environment
 ![Check Server IP Address](screenshots/30_server_ip_address.png)
 ![Set Static IP Address on Server](screenshots/30.1_server_static_ip.png)
 
-### 8. Virtual Machine Network Configuration
+### 8. Windows 11 Network Configuration
 ![Changed Windows 11 VM Network Settings](screenshots/29_changed_windows_11_network.png)
 ![Windows 11 IP Settings](screenshots/29.1_windows_11_ip_settings.png)
 ![Assign DNS Server to Windows 11 VM](screenshots/30.2_windows_assign_dns.png)
