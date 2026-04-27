@@ -41,7 +41,6 @@ User reports system freeze after repeatedly attempting to open Notepad.
 
 ### 2. Reported Issue
 ![Issue](screenshots/issue1.png)
-![Issue](screenshots/issue2.png)
 
 ### 3. Troubleshooting Steps
 ![Troubleshooting](screenshots/troubleshooting1.png)
@@ -50,4 +49,5 @@ User reports system freeze after repeatedly attempting to open Notepad.
 
 ### 4. Issue Resolved (Working State)
 ![Resolved](screenshots/resolved1.png)
-![Resolved](screenshots/resolved.png)
+![Resolved](screenshots/resolved2.png)
+![Resolved](screenshots/resolved3.png)
