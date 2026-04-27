@@ -1,34 +1,36 @@
 # Application Freeze - Notepad
 
 ## Summary
-User unable to open text documents in Notepad.
+System becomes unresponsive when opening Notepad.
 
 ## User
-Kevin Brooks
+Daniel White
 
 ## Department
-Sales
+Operations
 
 ## Issue
-User reports that text documents are opening in the wrong application instead of Notepad.
+User reports system freeze after repeatedly attempting to open Notepad.
 
 ---
 
 ## Troubleshooting
-- Reproduced issue by opening .txt file
-- Observed file opening in Windows Media Player
-- Reviewed file type associations in File Explorer
-- Verified default application for .txt files
-- Navigated to Default Apps settings
-- Identified incorrect default program assignment
+- Observed multiple Notepad instances running
+- Identified system unresponsiveness
+- Accessed security options (Ctrl + Alt + Delete)
+- Opened Task Manager
+- Reviewed CPU and memory utilization
+- Detected high resource usage from Notepad processes
+- Terminated Notepad processes via Task Manager
 
 ---
 
 ## Resolution
-- Updated default application for .txt files to Notepad
-- Applied changes in Windows Default Apps settings
-- Tested multiple text files
-- Confirmed files open correctly in Notepad
+- Closed all Notepad processes
+- Restarted workstation
+- Restored normal system performance
+- Verified Notepad opens without issue
+- Confirmed system responsiveness
 
 ---
 
@@ -38,7 +40,8 @@ User reports that text documents are opening in the wrong application instead of
 ![Ticket](screenshots/ticket.png)
 
 ### 2. Reported Issue
-![Issue](screenshots/issue.png)
+![Issue](screenshots/issue1.png)
+![Issue](screenshots/issue2.png)
 
 ### 3. Troubleshooting Steps
 ![Troubleshooting](screenshots/troubleshooting1.png)
@@ -46,4 +49,5 @@ User reports that text documents are opening in the wrong application instead of
 ![Troubleshooting](screenshots/troubleshooting3.png)
 
 ### 4. Issue Resolved (Working State)
+![Resolved](screenshots/resolved1.png)
 ![Resolved](screenshots/resolved.png)
