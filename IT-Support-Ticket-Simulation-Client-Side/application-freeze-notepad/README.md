@@ -47,9 +47,9 @@ User reports system freeze after repeatedly attempting to open Notepad.
 ![Troubleshooting](screenshots/troubleshooting2.png)
 ![Troubleshooting](screenshots/troubleshooting3.png)
 ![Troubleshooting](screenshots/troubleshooting4.png)
+![Troubleshooting](screenshots/troubleshooting5.png)
 
 ### 4. Issue Resolved (Working State)
-![Resolved](screenshots/resolved1.png)
 ![Resolved](screenshots/resolved2.png)
 ![Resolved](screenshots/resolved3.png)
 ![Resolved](screenshots/resolved4.png)
