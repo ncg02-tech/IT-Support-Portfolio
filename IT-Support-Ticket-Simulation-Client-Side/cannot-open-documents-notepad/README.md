@@ -38,13 +38,21 @@ User reports that text documents are opening in the wrong application instead of
 ![Ticket](screenshots/ticket.png)
 
 ### 2. Reported Issue
-![Issue](screenshots/issue.png)
+![Issue](screenshots/1.png)
 
 ### 3. Troubleshooting Steps
-![Troubleshooting](screenshots/troubleshooting1.png)
-![Troubleshooting](screenshots/troubleshooting2.png)
-![Troubleshooting](screenshots/troubleshooting3.png)
+![Troubleshooting](screenshots/2.png)
+![Troubleshooting](screenshots/3.png)
+![Troubleshooting](screenshots/4.png)
+![Troubleshooting](screenshots/5.png)
+![Troubleshooting](screenshots/6.png)
+![Troubleshooting](screenshots/7.png)
+![Troubleshooting](screenshots/8.png)
+![Troubleshooting](screenshots/9.png)
+![Troubleshooting](screenshots/10.png)
+![Troubleshooting](screenshots/11.png)
 
 ### 4. Issue Resolved (Working State)
-![Resolved](screenshots/resolved.png)
-
+![Resolved](screenshots/12.png)
+![Resolved](screenshots/13.png)
+![Resolved](screenshots/14.png)
