@@ -41,6 +41,7 @@ User reports taskbar is missing and cannot access Start menu or switch between a
 ![Issue](screenshots/issue1.png)
 
 ### 3. Troubleshooting Steps
+![Troubleshooting](screenshots/troubleshooting0.png)
 ![Troubleshooting](screenshots/troubleshooting1.png)
 ![Troubleshooting](screenshots/troubleshooting2.png)
 ![Troubleshooting](screenshots/troubleshooting3.png)
