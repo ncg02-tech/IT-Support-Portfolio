@@ -48,6 +48,7 @@ User reports system is not connecting to the internet and no websites are loadin
 ![Troubleshooting](screenshots/4.png)
 ![Troubleshooting](screenshots/5.png)
 ![Troubleshooting](screenshots/6.png)
+![Troubleshooting](screenshots/6.1.png)
 ![Troubleshooting](screenshots/7.png)
 ![Troubleshooting](screenshots/8.png)
 ![Troubleshooting](screenshots/9.png)
