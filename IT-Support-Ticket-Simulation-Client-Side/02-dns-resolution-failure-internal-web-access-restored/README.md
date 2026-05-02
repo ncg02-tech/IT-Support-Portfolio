@@ -1,4 +1,4 @@
-# Cannot Access Company Website
+# DNS Resolution Failure – Internal Web Access Restored
 
 ## Summary
 User unable to access internal company website.
