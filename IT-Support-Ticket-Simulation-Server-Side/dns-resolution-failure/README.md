@@ -52,6 +52,7 @@ User confirms site is accessible when using IP address.
 
 ### 3. Troubleshooting Steps
 ![Troubleshooting](screenshots/troubleshooting1.png)
+![Troubleshooting](screenshots/troubleshooting1a.png)
 ![Troubleshooting](screenshots/troubleshooting2.png)
 ![Troubleshooting](screenshots/troubleshooting3.png)
 ![Troubleshooting](screenshots/troubleshooting4.png)
