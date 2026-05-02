@@ -1,4 +1,4 @@
-# Application Freeze - Notepad
+# Application Freeze – High Resource Usage / Process Management
 
 ## Summary
 System becomes unresponsive when opening Notepad.
