@@ -51,6 +51,9 @@ Error displayed: "You do not have permission to access \\FILESERVER01\Marketing\
 
 ### 3. Troubleshooting Steps
 ![Troubleshooting](screenshots/troubleshooting0.png)
+![Troubleshooting](screenshots/troubleshooting0a.png)
+![Troubleshooting](screenshots/troubleshooting0b.png)
+![Troubleshooting](screenshots/troubleshooting0c.png)
 ![Troubleshooting](screenshots/troubleshooting1.png)
 ![Troubleshooting](screenshots/troubleshooting2.png)
 ![Troubleshooting](screenshots/troubleshooting3.png)
@@ -65,8 +68,11 @@ Error displayed: "You do not have permission to access \\FILESERVER01\Marketing\
 ![Troubleshooting](screenshots/troubleshooting12.png)
 ![Troubleshooting](screenshots/troubleshooting13.png)
 ![Troubleshooting](screenshots/troubleshooting14.png)
+![Troubleshooting](screenshots/troubleshooting15.png)
 
 ### 4. Issue Resolved (Working State)
 ![Resolved](screenshots/resolved0.png)
+![Resolved](screenshots/resolved0a.png)
+![Resolved](screenshots/resolved0b.png)
 ![Resolved](screenshots/resolved1.png)
 ![Resolved](screenshots/resolved2.png)
