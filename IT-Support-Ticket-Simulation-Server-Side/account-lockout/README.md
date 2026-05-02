@@ -51,6 +51,12 @@ User confirms multiple failed login attempts prior to issue.
 ![Troubleshooting](screenshots/troubleshooting5.png)
 ![Troubleshooting](screenshots/troubleshooting6.png)
 ![Troubleshooting](screenshots/troubleshooting7.png)
+![Troubleshooting](screenshots/troubleshooting8.png)
+![Troubleshooting](screenshots/troubleshooting9.png)
+![Troubleshooting](screenshots/troubleshooting10.png)
+![Troubleshooting](screenshots/troubleshooting11.png)
+![Troubleshooting](screenshots/troubleshooting12.png)
+![Troubleshooting](screenshots/troubleshooting13.png)
 
 ### 4. Issue Resolved (Working State)
 ![Resolved](screenshots/resolved1.png)
