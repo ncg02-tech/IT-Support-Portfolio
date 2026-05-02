@@ -1,4 +1,4 @@
-# Desktop Icons Missing
+# Desktop Icon Visibility Disabled – UI Restoration
 
 ## Summary
 User reports missing desktop icons.
