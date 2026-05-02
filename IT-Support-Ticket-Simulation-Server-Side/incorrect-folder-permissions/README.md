@@ -47,10 +47,7 @@ User reports visibility and access to Finance Management folder, which should be
 ### 3. Troubleshooting Steps
 ![Troubleshooting](screenshots/troubleshooting1.png)
 ![Troubleshooting](screenshots/troubleshooting2.png)
-![Troubleshooting](screenshots/troubleshooting3.png)
-![Troubleshooting](screenshots/troubleshooting4.png)
 
 ### 4. Issue Resolved (Working State)
 ![Resolved](screenshots/resolved1.png)
 ![Resolved](screenshots/resolved2.png)
-![Resolved](screenshots/resolved3.png)
