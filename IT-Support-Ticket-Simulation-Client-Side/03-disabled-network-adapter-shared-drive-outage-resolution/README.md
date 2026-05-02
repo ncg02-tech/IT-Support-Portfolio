@@ -1,4 +1,4 @@
-# Cannot Access Shared Drive
+# Network Adapter Failure (Shared Drive Outage)
 
 ## Summary
 User unable to access shared network drive.
