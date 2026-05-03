@@ -1,7 +1,7 @@
 # Domain Authentication Failure – Password Reset Resolution
 
 ## Summary
-User unable to authenticate due to incorrect credentials.
+Authentication failure caused by invalid user credentials in Active Directory.
 
 ## User
 Alicia Brown
@@ -10,27 +10,25 @@ Alicia Brown
 HR
 
 ## Issue
-User reports receiving error: "The user name or password is incorrect. Try again."  
-User confirms credentials have not been changed and believes they are entering them correctly.
+User unable to authenticate with error: *“The user name or password is incorrect.”*  
+User reports credentials believed to be correct.
 
 ---
 
 ## Troubleshooting
-- Reviewed user-reported authentication error
-- Identified issue consistent with incorrect credentials
-- Opened Active Directory Users and Computers
-- Located user account
-- Reviewed account options and status
-- Verified no account restrictions or lockout conditions
-- Determined password reset required
+- Reviewed authentication failure and validated error message  
+- Accessed **Active Directory Users and Computers (ADUC)**  
+- Located user account and reviewed account status  
+- Confirmed no lockout, restriction, or disabled conditions  
+- Isolated issue to **credential mismatch (password issue)**  
+- Determined password reset required  
 
 ---
 
 ## Resolution
-- Reset user password in Active Directory
-- Applied changes to account
-- Provided updated credentials to user
-- Confirmed successful authentication on client machine
+- Reset user password in Active Directory  
+- Restored valid credentials  
+- Verified successful authentication on domain-joined system  
 
 ---
 
