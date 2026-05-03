@@ -1,7 +1,7 @@
 # User Not Added to Security Group
 
 ## Summary
-User unable to perform administrative actions due to missing group membership.
+Administrator unable to perform domain management tasks due to missing security group membership.
 
 ## User
 Kevin Patel
@@ -10,34 +10,45 @@ Kevin Patel
 IT (System Administrator)
 
 ## Issue
-User reports inability to run applications with administrative privileges.  
-User expected to have elevated access based on role.
+Administrator unable to log in to Domain Controller and manage accounts, groups, and computers.  
+User lacks required permissions due to missing security group membership.
 
 ---
 
 ## Troubleshooting
-- Reviewed user-reported privilege issue
-- Identified failure when attempting to run application as administrator
-- Determined issue related to insufficient permissions
+- Reviewed user-reported access issue
+- Identified lack of administrative permissions
+- Logged in using higher-privileged account
 - Accessed Active Directory Users and Computers
 - Navigated to IT Organizational Unit (OU)
 - Located user account
 - Opened account properties
-- Navigated to "Member Of" tab
-- Reviewed group memberships
+- Reviewed "Member Of" tab
 - Identified user only part of "Domain Users" group
-- Determined missing "Domain Admins" group membership
-- Added missing required security group membership for role-based access
-- Applied updated group membership
+- Determined missing administrative group membership
+- Evaluated appropriate least-privilege group assignment
+- Selected "Account Operators" security group
+- Added user to "Account Operators" group
+- Applied group membership changes
+- Signed out of privileged account
+- Attempted login using user credentials
+- Verified successful authentication to Domain Controller
+- Accessed Active Directory management tools
+- Tested ability to manage user accounts
+- Disabled test user account to confirm permissions
+- Opened Command Prompt
+- Executed "whoami /groups"
+- Verified membership in "Account Operators" group
 
 ---
 
 ## Resolution
-- Added user to required security group
-- Applied group membership changes
-- Verified elevated privileges assigned
-- Confirmed user can run applications as administrator
-- Validated successful execution using admin credentials
+- Added user to "Account Operators" security group
+- Applied least-privilege access model
+- Enabled administrative capabilities without over-permissioning
+- Verified Domain Controller login access
+- Confirmed ability to manage users, groups, and computers
+- Validated group membership via command line
 
 ---
 
@@ -68,12 +79,26 @@ User expected to have elevated access based on role.
 ![Troubleshooting](screenshots/18.png)
 ![Troubleshooting](screenshots/19.png)
 ![Troubleshooting](screenshots/20.png)
+![Troubleshooting](screenshots/21.png)
+![Troubleshooting](screenshots/22.png)
+![Troubleshooting](screenshots/23.png)
 
 ### 4. Issue Resolved (Working State)
-![Resolved](screenshots/21.png)
-![Resolved](screenshots/22.png)
-![Resolved](screenshots/23.png)
 ![Resolved](screenshots/24.png)
 ![Resolved](screenshots/25.png)
 ![Resolved](screenshots/26.png)
 ![Resolved](screenshots/27.png)
+![Resolved](screenshots/28.png)
+![Resolved](screenshots/29.png)
+![Resolved](screenshots/30.png)
+![Resolved](screenshots/31.png)
+![Resolved](screenshots/32.png)
+![Resolved](screenshots/33.png)
+![Resolved](screenshots/34.png)
+![Resolved](screenshots/35.png)
+![Resolved](screenshots/36.png)
+![Resolved](screenshots/37.png)
+![Resolved](screenshots/38.png)
+![Resolved](screenshots/39.png)
+![Resolved](screenshots/40.png)
+![Resolved](screenshots/41.png)
