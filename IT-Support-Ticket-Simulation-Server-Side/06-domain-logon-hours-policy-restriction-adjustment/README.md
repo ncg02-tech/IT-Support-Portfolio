@@ -1,4 +1,4 @@
-# Update Logon Hours
+# Domain Logon Hours Restriction – Policy Adjustment
 
 ## Summary
 User unable to log in outside approved hours due to logon hour restrictions.
