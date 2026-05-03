@@ -1,4 +1,4 @@
-# Disabled User Account
+# Active Directory Disabled Account – Access Restoration
 
 ## Summary
 User unable to log in due to disabled account.
