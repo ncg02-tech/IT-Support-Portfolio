@@ -1,7 +1,7 @@
 # Desktop Icon Visibility Disabled – UI Restoration
 
 ## Summary
-User reports missing desktop icons.
+User interface issue caused by disabled desktop icon visibility setting.
 
 ## User
 Stephanie Clark
@@ -10,23 +10,22 @@ Stephanie Clark
 Sales
 
 ## Issue
-User reports that desktop icons are not visible and applications can only be accessed through search.
+User unable to view desktop icons, impacting access to applications and files.
 
 ---
 
 ## Troubleshooting
-- Observed missing desktop icons on user system
-- Verified desktop environment functionality
-- Accessed desktop context menu
-- Checked View settings for icon visibility
-- Identified "Show desktop icons" option disabled
+- Validated missing desktop icons on user system  
+- Confirmed desktop environment functioning normally  
+- Accessed desktop **View settings** via context menu  
+- Identified **“Show desktop icons”** setting disabled  
 
 ---
 
 ## Resolution
-- Enabled "Show desktop icons" in View settings
-- Restored desktop icon visibility
-- Verified user can launch applications from desktop
+- Re-enabled desktop icon visibility setting  
+- Restored standard user interface functionality  
+- Verified application access from desktop  
 
 ---
 
