@@ -1,3 +1,6 @@
+I need a revised README.md for this folders README.md (DO NOT TOUCH THE SCREENSHOTS SECTION), remember Enterprise level terminology and ATS friendly, but keep it concise so the recruits can actually read it quickly:
+
+
 # High Resource Usage – System Performance Optimization
 
 ## Summary
@@ -96,3 +99,4 @@ User reports slow startup and poor performance when opening applications.
 ![Resolved](screenshots/37.png)
 ![Resolved](screenshots/38.png)
 ![Resolved](screenshots/39.png)
+
