@@ -1,4 +1,4 @@
-# Password Reset
+# Domain Password Policy Error – Password Reset and Policy Correction
 
 ## Summary
 User unable to properly manage password due to incorrect account settings.
