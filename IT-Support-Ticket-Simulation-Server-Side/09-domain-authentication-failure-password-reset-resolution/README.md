@@ -1,4 +1,4 @@
-# Active Directory Authentication Failure
+# Domain Authentication Failure – Password Reset Resolution
 
 ## Summary
 User unable to authenticate due to incorrect credentials.
