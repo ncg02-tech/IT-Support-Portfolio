@@ -1,7 +1,7 @@
 # Overprovisioned File Share Permissions – Unauthorized Access Remediation
 
 ## Summary
-User has unauthorized access to restricted folder due to incorrect permissions.
+Unauthorized access caused by overprovisioned file share permissions in Active Directory environment.
 
 ## User
 Brian Lee
@@ -10,28 +10,24 @@ Brian Lee
 Operations
 
 ## Issue
-User reports visibility and access to Finance Management folder, which should be restricted to Finance management team only.
+User has unintended access to restricted Finance directory, violating role-based access control (RBAC) and least privilege principles.
 
 ---
 
 ## Troubleshooting
-- Reviewed user-reported unauthorized folder access
-- Confirmed user able to view restricted directory
-- Identified access violation based on department role
-- Accessed file server hosting shared folder
-- Opened folder properties
-- Navigated to Sharing settings
-- Reviewed shared permissions
-- Identified user listed with access permissions
-- Determined permissions misconfiguration
+- Validated unauthorized access to restricted folder  
+- Confirmed access not aligned with user role/department  
+- Accessed file server and reviewed **share permissions**  
+- Identified user explicitly granted access  
+- Determined root cause as **overprovisioned permissions**  
 
 ---
 
 ## Resolution
-- Removed user from shared folder permissions
-- Applied updated permission settings
-- Verified user no longer has access to restricted folder
-- Confirmed folder no longer visible on client machine
+- Removed unauthorized access from share permissions  
+- Enforced **least privilege access model**  
+- Verified restricted folder no longer visible or accessible  
+- Confirmed access control aligned with department roles  
 
 ---
 
