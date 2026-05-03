@@ -1,4 +1,4 @@
-# Incorrect Folder Permissions
+# Overprovisioned File Share Permissions – Unauthorized Access Remediation
 
 ## Summary
 User has unauthorized access to restricted folder due to incorrect permissions.
