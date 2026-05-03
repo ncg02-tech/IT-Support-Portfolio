@@ -43,16 +43,32 @@ User also experiences frequent login issues due to complex password requirements
 ## Screenshots
 
 ### 1. Ticket (Spiceworks)
-![Ticket](screenshots/ticket.png)
+![Ticket](screenshots/0.png)
 
 ### 2. Reported Issue
-![Issue](screenshots/issue1.png)
+![Issue](screenshots/0a.png)
 
 ### 3. Troubleshooting Steps
-![Troubleshooting](screenshots/troubleshooting1.png)
-![Troubleshooting](screenshots/troubleshooting2.png)
+![Troubleshooting](screenshots/1.png)
+![Troubleshooting](screenshots/2.png)
+![Troubleshooting](screenshots/3.png)
+![Troubleshooting](screenshots/4.png)
+![Troubleshooting](screenshots/5.png)
+![Troubleshooting](screenshots/6.png)
+![Troubleshooting](screenshots/7.png)
+![Troubleshooting](screenshots/8.png)
+![Troubleshooting](screenshots/9.png)
+![Troubleshooting](screenshots/10.png)
+![Troubleshooting](screenshots/11.png)
+![Troubleshooting](screenshots/12.png)
 
 ### 4. Issue Resolved (Working State)
-![Resolved](screenshots/resolved1.png)
-![Resolved](screenshots/resolved2.png)
-![Resolved](screenshots/resolved3.png)
+![Resolved](screenshots/13.png)
+![Resolved](screenshots/14.png)
+![Resolved](screenshots/15.png)
+![Resolved](screenshots/16.png)
+![Resolved](screenshots/17.png)
+![Resolved](screenshots/18.png)
+![Resolved](screenshots/19.png)
+![Resolved](screenshots/20.png)
+![Resolved](screenshots/21.png)
