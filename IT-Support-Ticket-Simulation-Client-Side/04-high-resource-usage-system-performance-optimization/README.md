@@ -1,10 +1,7 @@
-I need a revised README.md for this folders README.md (DO NOT TOUCH THE SCREENSHOTS SECTION), remember Enterprise level terminology and ATS friendly, but keep it concise so the recruits can actually read it quickly:
-
-
 # High Resource Usage – System Performance Optimization
 
 ## Summary
-User experiencing slow system performance.
+System performance degradation caused by excessive resource utilization (CPU, memory, and disk).
 
 ## User
 David Lee
@@ -13,35 +10,28 @@ David Lee
 Operations
 
 ## Issue
-User reports slow startup and poor performance when opening applications.
+User experiencing slow startup and application performance due to high system resource consumption.
 
 ---
 
 ## Troubleshooting
-- Reproduced issue by launching web browser
-- Observed slow application response
-- Reviewed system performance in Task Manager
-- Identified high CPU, memory, and disk utilization
-- Analyzed running processes
-- Detected multiple instances of same application
-- Reviewed startup applications
-- Identified excessive startup programs enabled
-- Inspected file system for storage usage
-- Detected numerous duplicate files
-- Reviewed performance settings
-- Identified all visual effects enabled
+- Reproduced performance issue and validated slow application response  
+- Analyzed system metrics using **Task Manager**  
+- Identified high **CPU, memory, and disk utilization**  
+- Detected redundant processes and excessive application instances  
+- Reviewed **startup programs** and identified unnecessary entries  
+- Evaluated disk usage and identified duplicate files  
+- Reviewed system performance settings impacting resource usage  
 
 ---
 
 ## Resolution
-- Closed duplicate running applications
-- Disabled unnecessary startup programs
-- Restarted system
-- Removed duplicate files
-- Executed Disk Cleanup (cleanmgr.exe)
-- Adjusted performance settings to prioritize performance
-- Verified reduced CPU, memory, and disk usage
-- Confirmed improved application load times
+- Terminated redundant processes and optimized running applications  
+- Disabled non-essential startup programs  
+- Performed system cleanup (**Disk Cleanup**)  
+- Removed unnecessary files to reduce disk load  
+- Adjusted system performance settings for optimized resource allocation  
+- Verified reduced resource utilization and improved system responsiveness  
 
 ---
 
@@ -99,4 +89,3 @@ User reports slow startup and poor performance when opening applications.
 ![Resolved](screenshots/37.png)
 ![Resolved](screenshots/38.png)
 ![Resolved](screenshots/39.png)
-
