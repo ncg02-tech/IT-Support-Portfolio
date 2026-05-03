@@ -1,7 +1,7 @@
 # DNS Record Misconfiguration – Missing A Record Resolution
 
 ## Summary
-User unable to access internal website via hostname due to DNS resolution issue.
+Hostname resolution failure caused by missing DNS A record within the internal domain.
 
 ## User
 Michael Thompson
@@ -10,34 +10,27 @@ Michael Thompson
 Operations
 
 ## Issue
-User reports inability to access internal site using hostname.  
-User confirms site is accessible when using IP address.
+User unable to access internal web service via hostname.  
+Service accessible via IP address, indicating DNS resolution failure.
 
 ---
 
 ## Troubleshooting
-- Reviewed user-reported access behavior
-- Identified hostname resolution failure with IP access working
-- Determined issue related to DNS resolution
-- Opened Command Prompt on client machine
-- Tested connectivity using hostname (ping failed)
-- Tested connectivity using IP address (ping successful)
-- Accessed Domain Controller
-- Opened DNS Manager
-- Navigated to Forward Lookup Zones
-- Reviewed existing DNS records
-- Identified missing A record for web server
-- Created new A record for "web" (web.homelab.local)
-- Verified DNS record creation
+- Validated issue: hostname unreachable, IP reachable  
+- Executed connectivity tests (`ping`) to confirm DNS failure  
+- Identified issue isolated to **name resolution (not network connectivity)**  
+- Accessed Domain Controller and opened **DNS Manager**  
+- Reviewed **Forward Lookup Zone** records  
+- Identified missing A record for internal web host  
+- Created A record mapping hostname to correct IP  
 
 ---
 
 ## Resolution
-- Created missing A record in DNS Manager
-- Mapped hostname to correct IP address
-- Verified hostname resolution using Command Prompt
-- Confirmed internal website accessible via hostname
-- User access restored
+- Added missing **DNS A record** for internal web server  
+- Restored hostname-to-IP resolution  
+- Verified successful name resolution via command line  
+- Confirmed internal site accessibility using hostname  
 
 ---
 
