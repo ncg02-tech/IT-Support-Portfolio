@@ -1,7 +1,7 @@
 # Active Directory Group Membership Misconfiguration – Privileged Access Restoration
 
 ## Summary
-Administrator unable to perform domain management tasks due to missing security group membership.
+Administrative access failure caused by incorrect Active Directory group membership (RBAC misconfiguration).
 
 ## User
 Kevin Patel
@@ -10,45 +10,30 @@ Kevin Patel
 IT (System Administrator)
 
 ## Issue
-Administrator unable to log in to Domain Controller and manage accounts, groups, and computers.  
-User lacks required permissions due to missing security group membership.
+User unable to authenticate to Domain Controller and perform administrative tasks due to missing privileged group membership.
 
 ---
 
 ## Troubleshooting
-- Reviewed user-reported access issue
-- Identified lack of administrative permissions
-- Logged in using higher-privileged account
-- Accessed Active Directory Users and Computers
-- Navigated to IT Organizational Unit (OU)
-- Located user account
-- Opened account properties
-- Reviewed "Member Of" tab
-- Identified user only part of "Domain Users" group
-- Determined missing administrative group membership
-- Evaluated appropriate least-privilege group assignment
-- Selected "Account Operators" security group
-- Added user to "Account Operators" group
-- Applied group membership changes
-- Signed out of privileged account
-- Attempted login using user credentials
-- Verified successful authentication to Domain Controller
-- Accessed Active Directory management tools
-- Tested ability to manage user accounts
-- Disabled test user account to confirm permissions
-- Opened Command Prompt
-- Executed "whoami /groups"
-- Verified membership in "Account Operators" group
+- Reviewed access failure and identified insufficient privileges  
+- Logged in with elevated administrative account  
+- Accessed **Active Directory Users and Computers (ADUC)**  
+- Located user within IT OU and reviewed **group membership**  
+- Confirmed user only assigned to **Domain Users**  
+- Identified missing delegated administrative role  
+- Selected **Account Operators** based on least-privilege model  
+- Added user to appropriate security group  
+- Re-authenticated with user account  
+- Verified Domain Controller access and AD management capability  
+- Validated effective permissions using `whoami /groups`  
 
 ---
 
 ## Resolution
-- Added user to "Account Operators" security group
-- Applied least-privilege access model
-- Enabled administrative capabilities without over-permissioning
-- Verified Domain Controller login access
-- Confirmed ability to manage users, groups, and computers
-- Validated group membership via command line
+- Assigned user to **Account Operators** security group  
+- Restored administrative access using **least privilege principles**  
+- Confirmed Domain Controller login and directory management functionality  
+- Verified group membership and permissions via command-line validation  
 
 ---
 
