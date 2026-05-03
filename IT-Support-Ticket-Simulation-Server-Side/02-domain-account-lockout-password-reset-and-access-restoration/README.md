@@ -1,4 +1,4 @@
-# Account Lockout
+# Domain Account Lockout – Password Reset and Access Restoration
 
 ## Summary
 User unable to log in due to account lockout.
