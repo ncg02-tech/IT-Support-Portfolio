@@ -33,7 +33,7 @@ Demonstrates hands-on experience managing user accounts, enforcing access polici
 
 ---
 
-## 🚀 Featured Enterprise Scenarios (Start Here)
+## Featured Enterprise Scenarios
 
 - [Active Directory Group Membership Misconfiguration – Privileged Access Restoration](./01-active-directory-group-membership-misconfiguration-privileged-access-restoration)  
 - [Domain Account Lockout – Password Reset and Access Restoration](./02-domain-account-lockout-password-reset-and-access-restoration)  
