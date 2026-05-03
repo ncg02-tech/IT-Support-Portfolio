@@ -1,7 +1,7 @@
 # Taskbar Visibility Issue – Auto-Hide Setting Correction
 
 ## Summary
-User unable to see taskbar on desktop.
+User interface issue caused by taskbar auto-hide configuration.
 
 ## User
 Chris Walker
@@ -10,25 +10,22 @@ Chris Walker
 Operations
 
 ## Issue
-User reports taskbar is missing and cannot access Start menu or switch between applications.
+Taskbar not persistently visible, limiting access to Start menu and application navigation.
 
 ---
 
 ## Troubleshooting
-- Observed taskbar hidden from desktop view
-- Verified taskbar appears when hovering over screen edge
-- Accessed taskbar context menu
-- Opened taskbar settings
-- Reviewed taskbar behavior configuration
-- Identified "Automatically hide the taskbar" enabled
+- Validated taskbar not visible in normal desktop state  
+- Confirmed taskbar appears on cursor hover  
+- Accessed **taskbar settings** via context menu  
+- Identified **auto-hide feature enabled**  
 
 ---
 
 ## Resolution
-- Disabled "Automatically hide the taskbar" setting
-- Restored persistent taskbar visibility
-- Verified Start menu and application switching functionality
-- Confirmed issue resolved
+- Disabled taskbar auto-hide setting  
+- Restored persistent taskbar visibility  
+- Verified Start menu access and application switching functionality  
 
 ---
 
