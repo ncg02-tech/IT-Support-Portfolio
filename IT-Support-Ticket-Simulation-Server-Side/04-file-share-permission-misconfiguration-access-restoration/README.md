@@ -1,7 +1,7 @@
 # File Share Permission Misconfiguration – Access Restoration
 
 ## Summary
-User unable to access shared network drive due to permission issue.
+Access denied to network share caused by misconfigured NTFS and share permissions.
 
 ## User
 Emily Rodriguez
@@ -10,34 +10,27 @@ Emily Rodriguez
 Marketing
 
 ## Issue
-User reports inability to access shared drive (Z:).  
-Error displayed: "You do not have permission to access \\FILESERVER01\Marketing\."
+User unable to access mapped network drive (Z:).  
+Error: *“You do not have permission to access \\FILESERVER01\Marketing\.”*
 
 ---
 
 ## Troubleshooting
-- Reviewed user-reported permission error
-- Identified access denied message on shared drive
-- Accessed file server hosting shared directory
-- Opened folder properties
-- Navigated to Sharing tab and Advanced Sharing settings
-- Reviewed share permissions
-- Identified missing "Domain Users" group in share permissions
-- Added "Domain Users" with read access
-- Navigated to Security tab
-- Reviewed NTFS permissions
-- Identified missing "Domain Users" group
-- Added "Domain Users" with read and execute permissions
-- Applied all permission changes
+- Validated **access denied** error on network share  
+- Accessed file server and reviewed folder **Share Permissions**  
+- Identified missing **Domain Users** group in share configuration  
+- Added appropriate read-level share permissions  
+- Reviewed **NTFS (Security) permissions**  
+- Identified missing access control entry for Domain Users  
+- Applied **Read & Execute** permissions at NTFS level  
+- Ensured alignment between share and NTFS permissions  
 
 ---
 
 ## Resolution
-- Added "Domain Users" to share permissions
-- Added "Domain Users" to NTFS security permissions
-- Applied correct access levels (Read, List Folder Contents, Read & Execute)
-- Confirmed user can access shared drive
-- Verified folder contents visible on client machine
+- Remediated permission misconfiguration at both **share and NTFS layers**  
+- Restored user access following proper permission hierarchy  
+- Verified successful access to network drive and folder contents  
 
 ---
 
