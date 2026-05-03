@@ -61,7 +61,6 @@ User was approved for extended access to complete work.
 ![Troubleshooting](screenshots/13.png)
 ![Troubleshooting](screenshots/14.png)
 ![Troubleshooting](screenshots/15.png)
-![Troubleshooting](screenshots/16.png)
 ![Troubleshooting](screenshots/17.png)
 ![Troubleshooting](screenshots/18.png)
 ![Troubleshooting](screenshots/19.png)
