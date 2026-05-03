@@ -1,7 +1,7 @@
 # Active Directory Disabled Account – Access Restoration
 
 ## Summary
-User unable to log in due to disabled account.
+Authentication failure caused by disabled user account in Active Directory.
 
 ## User
 Rachel Adams
@@ -10,28 +10,24 @@ Rachel Adams
 Finance
 
 ## Issue
-User reports login failure despite correct credentials.  
-Error displayed: "Your account has been disabled. Please see your system administrator."
+User unable to authenticate despite valid credentials.  
+Error: *“Your account has been disabled. Please see your system administrator.”*
 
 ---
 
 ## Troubleshooting
-- Reviewed user-reported login error
-- Identified account disabled message
-- Accessed Active Directory Users and Computers
-- Located user account
-- Opened account properties
-- Navigated to account settings
-- Verified "Account is disabled" option enabled
-- Identified root cause as disabled account status
+- Reviewed authentication failure and validated error message  
+- Identified issue related to **account state (disabled status)**  
+- Accessed **Active Directory Users and Computers (ADUC)**  
+- Located user account and reviewed account properties  
+- Confirmed **“Account is disabled”** setting enabled  
 
 ---
 
 ## Resolution
-- Re-enabled user account in Active Directory
-- Applied changes to account settings
-- Confirmed account status updated
-- User successfully authenticated on client machine
+- Re-enabled user account in Active Directory  
+- Restored authentication access  
+- Verified successful login and account functionality  
 
 ---
 
