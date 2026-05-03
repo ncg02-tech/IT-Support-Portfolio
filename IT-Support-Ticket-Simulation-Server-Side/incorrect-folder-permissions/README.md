@@ -38,16 +38,35 @@ User reports visibility and access to Finance Management folder, which should be
 ## Screenshots
 
 ### 1. Ticket (Spiceworks)
-![Ticket](screenshots/ticket.png)
+![Ticket](screenshots/1.png)
 
 ### 2. Reported Issue
-![Issue](screenshots/issue1.png)
-![Issue](screenshots/issue2.png)
+![Issue](screenshots/2.png)
+![Issue](screenshots/3.png)
 
 ### 3. Troubleshooting Steps
-![Troubleshooting](screenshots/troubleshooting1.png)
-![Troubleshooting](screenshots/troubleshooting2.png)
+![Troubleshooting](screenshots/4.png)
+![Troubleshooting](screenshots/5.png)
+![Troubleshooting](screenshots/6.png)
+![Troubleshooting](screenshots/7.png)
+![Troubleshooting](screenshots/8.png)
+![Troubleshooting](screenshots/9.png)
+![Troubleshooting](screenshots/10.png)
+![Troubleshooting](screenshots/11.png)
+![Troubleshooting](screenshots/12.png)
+![Troubleshooting](screenshots/13.png)
+![Troubleshooting](screenshots/14.png)
+![Troubleshooting](screenshots/15.png)
+![Troubleshooting](screenshots/16.png)
+![Troubleshooting](screenshots/17.png)
 
 ### 4. Issue Resolved (Working State)
-![Resolved](screenshots/resolved1.png)
-![Resolved](screenshots/resolved2.png)
+![Resolved](screenshots/18.png)
+![Resolved](screenshots/19.png)
+![Resolved](screenshots/20.png)
+![Resolved](screenshots/21.png)
+![Resolved](screenshots/22.png)
+![Resolved](screenshots/23.png)
+![Resolved](screenshots/24.png)
+![Resolved](screenshots/25.png)
+![Resolved](screenshots/26.png)
