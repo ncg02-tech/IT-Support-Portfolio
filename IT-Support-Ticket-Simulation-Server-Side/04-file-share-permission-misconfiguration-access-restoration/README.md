@@ -1,4 +1,4 @@
-# Cannot Access Shared Drive
+# File Share Permission Misconfiguration – Access Restoration
 
 ## Summary
 User unable to access shared network drive due to permission issue.
