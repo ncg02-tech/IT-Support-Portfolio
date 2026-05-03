@@ -1,7 +1,7 @@
 # Domain Password Policy Error – Password Reset and Policy Correction
 
 ## Summary
-User unable to properly manage password due to incorrect account settings.
+Authentication issues caused by misconfigured user account password policy settings in Active Directory.
 
 ## User
 Anthony Walker
@@ -10,33 +10,29 @@ Anthony Walker
 Marketing
 
 ## Issue
-User reports not being prompted to change password at first logon.  
-User also experiences frequent login issues due to complex password requirements.
+User not prompted to change password at first logon and unable to manage credentials properly due to incorrect account configuration.
 
 ---
 
 ## Troubleshooting
-- Reviewed user-reported password issue
-- Accessed Active Directory Users and Computers
-- Navigated to Marketing Organizational Unit (OU)
-- Located user account
-- Opened account properties
-- Navigated to Account settings
-- Verified "User must change password at next logon" was disabled
-- Verified "User cannot change password" was enabled
-- Identified misconfigured password policy settings
-- Updated account options to allow password change
-- Enabled password change at next logon
-- Reset user password
+- Reviewed password-related authentication issues  
+- Accessed **Active Directory Users and Computers (ADUC)**  
+- Located user account within appropriate OU  
+- Reviewed **account policy settings**  
+- Identified misconfiguration:
+  - “User must change password at next logon” disabled  
+  - “User cannot change password” enabled  
+- Determined root cause as **incorrect password policy configuration**  
+- Updated account settings to allow password management  
+- Initiated password reset  
 
 ---
 
 ## Resolution
-- Enabled "User must change password at next logon"
-- Disabled "User cannot change password"
-- Reset user password to temporary credential
-- Allowed user to create new password
-- Confirmed successful login with updated credentials
+- Enabled enforced password change at next logon  
+- Restored user ability to manage credentials  
+- Reset password to temporary value  
+- Verified successful authentication and password update  
 
 ---
 
@@ -72,4 +68,3 @@ User also experiences frequent login issues due to complex password requirements
 ![Resolved](screenshots/19.png)
 ![Resolved](screenshots/20.png)
 ![Resolved](screenshots/21.png)
-
