@@ -1,4 +1,4 @@
-# User Not Added to Security Group
+# Active Directory Group Membership Misconfiguration – Privileged Access Restoration
 
 ## Summary
 Administrator unable to perform domain management tasks due to missing security group membership.
