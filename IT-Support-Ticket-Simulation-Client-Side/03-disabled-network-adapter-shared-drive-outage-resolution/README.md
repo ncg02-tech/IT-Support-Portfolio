@@ -1,7 +1,7 @@
 # Network Adapter Failure (Shared Drive Outage)
 
 ## Summary
-User unable to access shared network drive.
+Network connectivity failure caused by disabled Ethernet adapter, resulting in loss of access to shared resources.
 
 ## User
 David Lee
@@ -10,31 +10,26 @@ David Lee
 Operations
 
 ## Issue
-User reports that the shared drive is unavailable and cannot be opened.
+User unable to access shared network drive due to loss of network connectivity.
 
 ---
 
 ## Troubleshooting
-- Verified shared drive status in File Explorer (red X present)
-- Attempted to access shared drive and reviewed error message
-- Tested connectivity to host device using ping
-- Identified no network connectivity (packet loss)
-- Checked network status from taskbar (no internet connection)
-- Accessed Network and Internet settings
-- Navigated to advanced network settings
-- Identified disabled network adapters
-- Re-enabled Ethernet adapters
-- Retested connectivity using ping (successful response)
-- Verified shared drive accessibility
+- Validated shared drive unavailable (mapped drive error)  
+- Tested connectivity to file server (`ping`) and identified packet loss  
+- Confirmed system offline via network status indicator  
+- Isolated issue to **local network configuration**  
+- Accessed advanced network settings  
+- Identified **disabled Ethernet adapter**  
+- Re-enabled adapter and restored network interface  
+- Retested connectivity and verified successful response  
 
 ---
 
 ## Resolution
-- Enabled disabled network adapters
-- Restored network connectivity
-- Re-established communication with host device
-- Confirmed shared drive is accessible
-- Verified user can view and access files
+- Restored network connectivity by enabling Ethernet adapter  
+- Re-established communication with file server  
+- Verified shared drive accessibility and file visibility  
 
 ---
 
