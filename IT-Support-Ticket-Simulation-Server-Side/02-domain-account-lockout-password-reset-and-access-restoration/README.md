@@ -1,7 +1,7 @@
 # Domain Account Lockout – Password Reset and Access Restoration
 
 ## Summary
-User unable to log in due to account lockout.
+User authentication failure caused by Active Directory account lockout following multiple failed login attempts.
 
 ## User
 Cynthia Evans
@@ -10,28 +10,25 @@ Cynthia Evans
 Sales
 
 ## Issue
-User reports receiving error: "The referenced account is currently locked out and may not be logged on to."  
-User confirms multiple failed login attempts prior to issue.
+User unable to authenticate due to account lockout.  
+Error: *“The referenced account is currently locked out and may not be logged on to.”*
 
 ---
 
 ## Troubleshooting
-- Reviewed user-reported error message
-- Identified account lockout due to failed login attempts
-- Opened Active Directory Users and Computers
-- Located user account
-- Checked account status in user properties
-- Confirmed account was locked out
-- Unlocked user account
-- Initiated password reset for user
+- Reviewed lockout error and confirmed repeated failed authentication attempts  
+- Accessed **Active Directory Users and Computers (ADUC)**  
+- Located user account and verified **lockout status**  
+- Identified account lockout as root cause  
+- Unlocked account and initiated secure password reset  
 
 ---
 
 ## Resolution
-- Unlocked user account in Active Directory
-- Reset user password
-- Applied changes and confirmed account status
-- User successfully logged in with new credentials
+- Cleared account lockout in Active Directory  
+- Reset user password and enforced credential update  
+- Restored user authentication access  
+- Verified successful login and account functionality  
 
 ---
 
