@@ -1,7 +1,7 @@
 # Active Directory Login Failure – Domain Rejoin
 
 ## Summary
-User unable to log in to workstation.
+Authentication failure caused by workstation not joined to Active Directory domain.
 
 ## User
 Olivia Martinez
@@ -10,29 +10,26 @@ Olivia Martinez
 HR
 
 ## Issue
-User reports login failure and notices system appears different than usual.
+User unable to authenticate with domain credentials.  
+System presenting local login context instead of domain authentication.
 
 ---
 
 ## Troubleshooting
-- Attempted login using domain credentials
-- Observed authentication failure (invalid credentials)
-- Identified login screen as local account (not domain)
-- Determined system not joined to domain
-- Logged in using local administrator account
-- Navigated to system settings (About)
-- Accessed domain join configuration
-- Initiated domain join process
-- Authenticated using domain administrator credentials
-- Restarted system to apply changes
+- Validated login failure using domain credentials  
+- Identified system authenticating against **local account context**  
+- Determined workstation not joined to domain  
+- Authenticated using **local administrator account**  
+- Accessed system configuration and domain membership settings  
+- Initiated domain join using administrative credentials  
+- Restarted system to apply domain configuration  
 
 ---
 
 ## Resolution
-- Rejoined workstation to domain
-- Restored domain authentication functionality
-- Verified domain login screen appears on startup
-- Confirmed user successfully logs in with domain credentials
+- Rejoined workstation to Active Directory domain  
+- Restored domain authentication functionality  
+- Verified domain login prompt and successful user authentication  
 
 ---
 
