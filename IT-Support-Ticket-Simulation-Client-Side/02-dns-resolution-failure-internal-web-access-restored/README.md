@@ -1,7 +1,7 @@
 # DNS Resolution Failure – Internal Web Access Restored
 
 ## Summary
-User unable to access internal company website.
+Internal service access failure caused by incorrect DNS client configuration.
 
 ## User
 Daniel Foster
@@ -10,27 +10,25 @@ Daniel Foster
 Marketing
 
 ## Issue
-User reports that the internal company website does not load, while external websites function normally.
+User unable to access internal web application while external sites remain reachable, indicating DNS resolution issue.
 
 ---
 
 ## Troubleshooting
-- Reproduced issue by accessing internal website
-- Verified external connectivity (Google reachable)
-- Checked network configuration using ipconfig /all
-- Identified incorrect DNS server assignment
-- Accessed Network Adapter settings
-- Modified DNS configuration to internal DNS server
-- Flushed DNS resolver cache
-- Tested name resolution and connectivity using ping
+- Reproduced issue: internal site unreachable, external connectivity functional  
+- Validated network connectivity independent of DNS  
+- Executed `ipconfig /all` to review DNS configuration  
+- Identified incorrect DNS server assignment (non-domain DNS)  
+- Accessed network adapter settings and updated DNS to **internal domain controller**  
+- Flushed DNS cache (`ipconfig /flushdns`)  
+- Verified hostname resolution and connectivity via command line  
 
 ---
 
 ## Resolution
-- Updated client DNS server to internal domain controller
-- Cleared DNS cache using ipconfig /flushdns
-- Verified connectivity to internal web server (web.homelab.local)
-- Confirmed internal website loads successfully in browser
+- Corrected DNS client configuration to use internal DNS server  
+- Restored internal name resolution  
+- Verified access to internal web service via hostname  
 
 ---
 
