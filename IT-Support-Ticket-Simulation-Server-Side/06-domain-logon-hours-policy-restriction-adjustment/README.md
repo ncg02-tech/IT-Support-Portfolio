@@ -1,7 +1,7 @@
 # Domain Logon Hours Restriction – Policy Adjustment
 
 ## Summary
-User unable to log in outside approved hours due to logon hour restrictions.
+Authentication failure caused by Active Directory logon hours policy restricting user access outside approved timeframe.
 
 ## User
 Marcus Johnson
@@ -10,32 +10,26 @@ Marcus Johnson
 Operations
 
 ## Issue
-User reports inability to log in after business hours despite correct credentials.  
-User was approved for extended access to complete work.
+User unable to authenticate after business hours despite valid credentials.  
+Access restricted by configured logon hours policy.
 
 ---
 
 ## Troubleshooting
-- Reviewed user-reported login issue
-- Identified login attempt occurring outside standard business hours
-- Determined issue related to logon hour restrictions
-- Accessed Active Directory Users and Computers
-- Navigated to Operations Organizational Unit (OU)
-- Located user account
-- Opened account properties
-- Accessed Logon Hours settings
-- Reviewed existing logon hour restrictions
-- Identified restricted access outside business hours
-- Updated logon hours to reflect approved access window
+- Validated login failure during restricted time window  
+- Identified issue as **policy-based access restriction (logon hours)**  
+- Accessed **Active Directory Users and Computers (ADUC)**  
+- Located user account and reviewed **Logon Hours configuration**  
+- Confirmed access limited to standard business hours  
+- Determined requirement for extended access window  
 
 ---
 
 ## Resolution
-- Modified user logon hours in Active Directory
-- Extended access to approved after-hours timeframe
-- Applied updated logon hour settings
-- Verified user can authenticate outside standard hours
-- Confirmed successful login after policy update
+- Updated **logon hours policy** to include approved timeframe  
+- Applied changes to user account in Active Directory  
+- Restored authentication access outside standard hours  
+- Verified successful login and policy enforcement  
 
 ---
 
