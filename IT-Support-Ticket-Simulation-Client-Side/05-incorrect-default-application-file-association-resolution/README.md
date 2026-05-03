@@ -1,7 +1,7 @@
 # Incorrect Default Application – File Association Resolution
 
 ## Summary
-User unable to open text documents in Notepad.
+Application handling issue caused by incorrect file association configuration.
 
 ## User
 Kevin Brooks
@@ -10,25 +10,22 @@ Kevin Brooks
 Sales
 
 ## Issue
-User reports that text documents are opening in the wrong application instead of Notepad.
+Text files (.txt) opening in an incorrect application, impacting normal user workflow.
 
 ---
 
 ## Troubleshooting
-- Reproduced issue by opening .txt file
-- Observed file opening in Windows Media Player
-- Reviewed file type associations in File Explorer
-- Verified default application for .txt files
-- Navigated to Default Apps settings
-- Identified incorrect default program assignment
+- Reproduced issue and confirmed incorrect application behavior  
+- Verified file type association for **.txt files**  
+- Reviewed **Default Apps configuration**  
+- Identified incorrect application assigned to text file extension  
 
 ---
 
 ## Resolution
-- Updated default application for .txt files to Notepad
-- Applied changes in Windows Default Apps settings
-- Tested multiple text files
-- Confirmed files open correctly in Notepad
+- Updated file association to **Notepad** as default application  
+- Applied changes via system settings  
+- Verified correct application handling across multiple test files  
 
 ---
 
