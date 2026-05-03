@@ -1,7 +1,7 @@
 # Active Directory User Onboarding – Account Provisioning
 
 ## Summary
-Created new Active Directory user account for onboarding.
+User account provisioning performed in Active Directory as part of onboarding process.
 
 ## User
 (New Hire) Daniel Brooks
@@ -10,29 +10,26 @@ Created new Active Directory user account for onboarding.
 Sales
 
 ## Issue
-Manager requested creation of a new domain account for a new employee.
+Request to create and configure a domain account for a new employee.
 
 ---
 
 ## Troubleshooting
-- Reviewed account creation request
-- Accessed Active Directory Users and Computers
-- Navigated to Sales Organizational Unit (OU)
-- Initiated new user object creation
-- Entered user details and username
-- Configured initial password
-- Set account options for first login
-- Completed user account creation
-- Verified account exists in domain
+- Reviewed onboarding request and required account details  
+- Accessed **Active Directory Users and Computers (ADUC)**  
+- Navigated to appropriate **Organizational Unit (OU)**  
+- Created new user object with required attributes  
+- Configured initial credentials and account options  
+- Enabled **“User must change password at next logon”**  
+- Verified account creation and directory placement  
 
 ---
 
 ## Resolution
-- Created new user account in Active Directory
-- Assigned user to correct Organizational Unit (Sales)
-- Configured login credentials
-- Confirmed successful login on domain-joined machine
-- Verified account ready for use
+- Provisioned user account within correct OU  
+- Configured authentication credentials and initial access settings  
+- Validated successful login on domain-joined system  
+- Confirmed account readiness for production use  
 
 ---
 
