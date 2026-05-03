@@ -27,13 +27,13 @@ User expected to have elevated access based on role.
 - Reviewed group memberships
 - Identified user only part of "Domain Users" group
 - Determined missing "Domain Admins" group membership
-- Added user to "Domain Admins" security group
+- Added missing required security group membership for role-based access
 - Applied updated group membership
 
 ---
 
 ## Resolution
-- Added user to "Domain Admins" security group
+- Added user to required security group
 - Applied group membership changes
 - Verified elevated privileges assigned
 - Confirmed user can run applications as administrator
