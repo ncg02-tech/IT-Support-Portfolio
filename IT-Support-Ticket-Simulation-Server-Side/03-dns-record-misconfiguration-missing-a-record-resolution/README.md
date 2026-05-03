@@ -1,4 +1,4 @@
-# DNS Resolution Failure
+# DNS Record Misconfiguration – Missing A Record Resolution
 
 ## Summary
 User unable to access internal website via hostname due to DNS resolution issue.
