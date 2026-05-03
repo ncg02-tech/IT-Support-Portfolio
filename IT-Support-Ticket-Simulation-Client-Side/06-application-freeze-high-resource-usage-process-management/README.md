@@ -1,7 +1,7 @@
 # Application Freeze – High Resource Usage / Process Management
 
 ## Summary
-System becomes unresponsive when opening Notepad.
+Application unresponsiveness caused by excessive process instances and high resource utilization.
 
 ## User
 Daniel White
@@ -10,27 +10,24 @@ Daniel White
 Operations
 
 ## Issue
-User reports system freeze after repeatedly attempting to open Notepad.
+System becomes unresponsive when launching Notepad due to multiple concurrent instances consuming system resources.
 
 ---
 
 ## Troubleshooting
-- Observed multiple Notepad instances running
-- Identified system unresponsiveness
-- Accessed security options (Ctrl + Alt + Delete)
-- Opened Task Manager
-- Reviewed CPU and memory utilization
-- Detected high resource usage from Notepad processes
-- Terminated Notepad processes via Task Manager
+- Reproduced issue and observed system freeze behavior  
+- Accessed **Task Manager** via secure attention sequence  
+- Analyzed **CPU and memory utilization**  
+- Identified multiple Notepad processes causing resource contention  
+- Isolated root cause to redundant process instances  
 
 ---
 
 ## Resolution
-- Closed all Notepad processes
-- Restarted workstation
-- Restored normal system performance
-- Verified Notepad opens without issue
-- Confirmed system responsiveness
+- Terminated excessive Notepad processes  
+- Restarted workstation to stabilize system state  
+- Restored normal resource utilization  
+- Verified application functionality and system responsiveness  
 
 ---
 
