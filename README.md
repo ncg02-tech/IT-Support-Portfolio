@@ -18,7 +18,7 @@ Diagnosed and resolved domain join failures caused by DNS misconfiguration and n
 ---
 
 ### IT Support Ticket Simulation (Client-Side)
-Resolved multiple end-user issues on domain-joined Windows 11 systems, including network connectivity failures, shared drive access issues, printing errors, login problems, and system usability issues (taskbar, desktop, performance). Applied structured troubleshooting using system settings and command-line tools to identify and resolve root causes in a simulated help desk environment.
+Resolved multiple end-user issues on domain-joined Windows 11 systems, including network connectivity failures, shared drive access issues, login problems, and system usability issues (taskbar, desktop, performance). Applied structured troubleshooting using system settings and command-line tools to identify and resolve root causes in a simulated help desk environment.
 [View Project](./it-support-ticket-simulation-client-side)
 
 ---
