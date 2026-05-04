@@ -18,7 +18,7 @@ User has unintended access to restricted Finance directory, violating role-based
 - Validated unauthorized access to restricted folder  
 - Confirmed access not aligned with user role/department  
 - Accessed file server and reviewed **share permissions**  
-- Identified user explicitly granted access  
+- Identified user group explicitly granted access  
 - Determined root cause as **overprovisioned permissions**  
 
 ---
