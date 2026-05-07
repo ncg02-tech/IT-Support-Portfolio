@@ -18,13 +18,13 @@ Active Directory • Domain Controller Deployment • DNS • RBAC • Windows S
 
 ---
 
-## Enterprise Domain Join Failure – Multi-Layer Network Remediation
+## Domain Join Failure – Multi-Layer Network Remediation
 Diagnosed and resolved a complex Active Directory domain join failure involving DNS misconfiguration, outbound firewall restrictions, LDAP connectivity issues, and network profile configuration. Utilized command-line and PowerShell diagnostics to isolate and remediate layered infrastructure issues.
 
 **Key Skills:**  
 DNS Troubleshooting • LDAP Connectivity • Firewall Administration • PowerShell • TCP/IP Networking • Root Cause Analysis • Domain Join Troubleshooting
 
-[View Project](./Enterprise-Domain-Join-Failure-Multi-Layer-Network-Remediation)
+[View Project](./Domain-Join-Failure-Multi-Layer-Network-Remediation)
 
 ---
 
