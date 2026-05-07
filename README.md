@@ -14,7 +14,7 @@ Designed and deployed a virtualized Active Directory environment using Windows S
 **Key Skills:**  
 Active Directory • Domain Controller Deployment • DNS • RBAC • Windows Server Administration • Endpoint Domain Integration
 
-[View Project](./active-directory-infrastructure-and-domain-integration)
+[View Project](./Active-Directory-Infrastructure-and-Domain-Integration)
 
 ---
 
@@ -24,7 +24,7 @@ Diagnosed and resolved a complex Active Directory domain join failure involving 
 **Key Skills:**  
 DNS Troubleshooting • LDAP Connectivity • Firewall Administration • PowerShell • TCP/IP Networking • Root Cause Analysis • Domain Join Troubleshooting
 
-[View Project](./enterprise-domain-join-failure-multi-layer-network-remediation)
+[View Project](./Enterprise-Domain-Join-Failure-Multi-Layer-Network-Remediation)
 
 ---
 
