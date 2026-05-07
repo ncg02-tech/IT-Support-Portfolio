@@ -2,7 +2,7 @@
 
 Enterprise-focused IT support and Active Directory lab portfolio demonstrating hands-on experience with Windows Server administration, domain infrastructure deployment, identity and access management (IAM), DNS troubleshooting, endpoint integration, and enterprise help desk operations.
 
-Projects include Active Directory deployment, multi-layer domain join remediation, client-side troubleshooting, and server-side administrative support scenarios using Windows Server, Windows 11, Oracle VirtualBox, and Spiceworks. :contentReference[oaicite:0]{index=0}
+Projects include Active Directory deployment, multi-layer domain join remediation, client-side troubleshooting, and server-side administrative support scenarios using Windows Server, Windows 11, Oracle VirtualBox, and Spiceworks.
 
 ---
 
